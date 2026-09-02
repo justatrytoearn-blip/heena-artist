@@ -1,10 +1,19 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { getSiteConfig } from "@/lib/dataService";
 
 export default function WhatsAppButton() {
-  const whatsappNumber =
-    process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "919876543210";
+  const [whatsappNumber, setWhatsappNumber] = useState(
+    process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "919876543210"
+  );
+
+  useEffect(() => {
+    getSiteConfig().then((c) => {
+      if (c.whatsappNumber) setWhatsappNumber(c.whatsappNumber);
+    });
+  }, []);
+
   const message = encodeURIComponent(
     "Hello, I would like to enquire about your Henna/Mehndi services."
   );
