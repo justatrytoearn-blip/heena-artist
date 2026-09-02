@@ -56,16 +56,14 @@ export interface Product {
   description: string;
   price: string;
   imageUrl: string;
-  createdAt: string;
+  created_at: string;
 }
 
 export interface Testimonial {
   id: string;
   customerName: string;
-  name?: string;
-  type: "text" | "screenshot";
-  text?: string;
-  content?: string;
-  imageUrl?: string;
-  createdAt: string;
+  type: string;
+  content: string;
+  imageUrl: string;
+  created_at: string;
 }
