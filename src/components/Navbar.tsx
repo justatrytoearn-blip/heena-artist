@@ -46,7 +46,7 @@ export default function Navbar() {
               <span className="text-mehndiGreen">{artistName.split(" ").slice(-1)}</span>
             </span>
             <span className="text-[10px] sm:text-xs text-stone-400 tracking-widest uppercase -mt-1">
-              Mehndi Artist
+              Mehendi Artist
             </span>
           </a>
 

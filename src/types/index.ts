@@ -26,17 +26,17 @@ export interface GalleryImage {
 export type GalleryItem = GalleryImage;
 
 export type GalleryCategory =
-  | "Bridal Mehndi"
-  | "Arabic Mehndi"
-  | "Traditional Mehndi"
+  | "Bridal Mehendi"
+  | "Arabic Mehendi"
+  | "Traditional Mehendi"
   | "Engagement"
   | "Party"
   | "Custom Designs";
 
 export const GALLERY_CATEGORIES: GalleryCategory[] = [
-  "Bridal Mehndi",
-  "Arabic Mehndi",
-  "Traditional Mehndi",
+  "Bridal Mehendi",
+  "Arabic Mehendi",
+  "Traditional Mehendi",
   "Engagement",
   "Party",
   "Custom Designs",

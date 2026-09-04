@@ -13,7 +13,7 @@ export default function About() {
   }, []);
 
   const name = config?.artistName || "Henna by Bhoomi";
-  const about = config?.aboutText || "With over 10 years of experience in the art of Mehndi, I bring traditional and contemporary henna designs to life.";
+  const about = config?.aboutText || "With over 10 years of experience in the art of Mehendi, I bring traditional and contemporary henna designs to life.";
   const experience = config?.experience || "10+ Years";
   const location = config?.location || "Mumbai, India";
   const photo = config?.artistPhoto || "";

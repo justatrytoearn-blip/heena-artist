@@ -17,9 +17,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Bhoomi Art | Professional Mehndi Artist",
+  title: "Bhoomi Art | Professional Mehendi Artist",
   description: "Beautiful henna art for every special moment.",
-  keywords: ["henna", "mehndi", "bridal mehndi", "arabic mehndi", "mehndi artist"],
+  keywords: ["henna", "mehendi", "bridal mehendi", "arabic mehendi", "mehendi artist"],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

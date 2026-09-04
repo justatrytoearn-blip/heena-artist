@@ -15,7 +15,7 @@ export default function WhatsAppButton() {
   }, []);
 
   const message = encodeURIComponent(
-    "Hello, I would like to enquire about your Henna/Mehndi services."
+    "Hello, I would like to enquire about your Henna/Mehendi services."
   );
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
 

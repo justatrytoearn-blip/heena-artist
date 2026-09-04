@@ -293,9 +293,9 @@ function GalleryUpload({ onUpload, saving }: { onUpload: (file: File, title: str
   const [file, setFile] = useState<File | null>(null);
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
-  const [cat, setCat] = useState("Bridal Mehndi");
+  const [cat, setCat] = useState("Bridal Mehendi");
   const [preview, setPreview] = useState<string | null>(null);
-  const cats = ["Bridal Mehndi", "Arabic Mehndi", "Traditional Mehndi", "Engagement", "Party", "Custom Designs"];
+  const cats = ["Bridal Mehendi", "Arabic Mehendi", "Traditional Mehendi", "Engagement", "Party", "Custom Designs"];
 
   return (
     <div className="bg-white rounded-xl p-6 border border-beige">

@@ -13,7 +13,7 @@ export default function Contact() {
     getSiteConfig().then(setConfig);
   }, []);
 
-  const message = encodeURIComponent("Hello, I would like to enquire about your Henna/Mehndi services.");
+  const message = encodeURIComponent("Hello, I would like to enquire about your Henna/Mehendi services.");
 
   return (
     <section id="contact" className="py-16 md:py-24 bg-cream-dark">

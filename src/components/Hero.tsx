@@ -15,7 +15,7 @@ export default function Hero() {
 
   const whatsappNumber = config.whatsappNumber || "919876543210";
   const message = encodeURIComponent(
-    "Hello, I would like to enquire about your Henna/Mehndi services."
+    "Hello, I would like to enquire about your Henna/Mehendi services."
   );
 
   return (
@@ -36,7 +36,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
         <div className="flex items-center justify-center gap-3 mb-6 animate-fade-in">
           <div className="w-12 h-px bg-terracotta/40" />
-          <span className="text-terracotta text-xs tracking-[0.3em] uppercase font-medium">Professional Mehndi Artist</span>
+          <span className="text-terracotta text-xs tracking-[0.3em] uppercase font-medium">Professional Mehendi Artist</span>
           <div className="w-12 h-px bg-terracotta/40" />
         </div>
 
